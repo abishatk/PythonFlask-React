@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+
+
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #7bdcb5;
+  color: whitesmoke;
+  flex-direction: column;
+}
+@import url('https://fonts.google.com/specimen/Roboto');
+
+.main-header{
+  font-family: 'specimen', sans-serif;
+}
+.create-form label{
+  color: whitesmoke !important;
+  font-family: 'Specimen', sans-serif;
+  font-size: 12px !important;
+}
